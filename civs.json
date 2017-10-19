@@ -1,0 +1,74 @@
+{
+  "civs": [
+    {
+      "id": 1,
+      "name": "",
+      "wonders": [
+        {
+          "id": 1,
+          "victory": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "",
+      "wonders": [
+        {
+          "id": 1,
+          "victory": 0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "",
+      "wonders": [
+        {
+          "id": 1,
+          "victory": 0
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "",
+      "wonders": [
+        {
+          "id": 1,
+          "victory": 0
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "",
+      "wonders": [
+        {
+          "id": 1,
+          "victory": 0
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "",
+      "wonders": [
+        {
+          "id": 1,
+          "victory": 0
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "",
+      "wonders": [
+        {
+          "id": 1,
+          "victory": 0
+        }
+      ]
+    }
+  ]
+}

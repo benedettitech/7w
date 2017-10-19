@@ -1,6 +1,6 @@
 var app = angular.module("7w", []);
 
-app.controller("7wController", function($scope) {
+app.controller("7wController", ['$scope', '$http', function($scope, $http) {
     $scope.user = "John";
     $scope.numberPlayers = 3;
     console.log($scope);
@@ -24,7 +24,12 @@ app.controller("7wController", function($scope) {
             
         }
     }
-});
+    
+    $http.get('civs.json')
+        .then(function(data) {
+            $scope.civs = data;
+        });
+}]);
 
 // Create Players
 
