@@ -5,11 +5,11 @@
     
     <div ng-app="7w" ng-controller="7wController">
 
-        Number of Players : <input type="number" min="3" max="7" ng-model="numberPlayers" ng-change="buildGame(numberPlayers)">
+        Number of Players : <input type="number" min="3" max="7" ng-model="numberPlayers" ng-init="buildGame(numberPlayers)" ng-change="buildGame(numberPlayers)">
         
         <li ng-repeat="player in players">
             <ul><span> Player: {{ player.number }}</span></ul>
-            <ul><span> Civilization: {{ player.civ }}</span></ul>
+            <ul><span> Civilization: {{ player.civ }}</span><span> Change Civ: <select ng-model="player.civ" ng-options="c as c.name for c in civs.data.civs track by c.id"></span></ul>
             <br>
         </li>
 

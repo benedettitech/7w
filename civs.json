@@ -2,17 +2,25 @@
   "civs": [
     {
       "id": 1,
-      "name": "",
+      "name": "a",
       "wonders": [
         {
           "id": 1,
+          "victory": 0
+        },
+          {
+          "id": 2,
+          "victory": 0
+        },
+          {
+          "id": 3,
           "victory": 0
         }
       ]
     },
     {
       "id": 2,
-      "name": "",
+      "name": "b",
       "wonders": [
         {
           "id": 1,
@@ -22,7 +30,7 @@
     },
     {
       "id": 3,
-      "name": "",
+      "name": "c",
       "wonders": [
         {
           "id": 1,
@@ -32,7 +40,7 @@
     },
     {
       "id": 4,
-      "name": "",
+      "name": "d",
       "wonders": [
         {
           "id": 1,
@@ -42,7 +50,7 @@
     },
     {
       "id": 5,
-      "name": "",
+      "name": "e",
       "wonders": [
         {
           "id": 1,
@@ -52,7 +60,7 @@
     },
     {
       "id": 6,
-      "name": "",
+      "name": "f",
       "wonders": [
         {
           "id": 1,
@@ -62,7 +70,7 @@
     },
     {
       "id": 7,
-      "name": "",
+      "name": "g",
       "wonders": [
         {
           "id": 1,
