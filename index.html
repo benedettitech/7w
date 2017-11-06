@@ -6,12 +6,18 @@
     <div ng-app="7w" ng-controller="7wController">
 
         Number of Players : <input type="number" min="3" max="7" ng-model="numberPlayers" ng-init="buildGame(numberPlayers)" ng-change="buildGame(numberPlayers)">
-        
+
         <li ng-repeat="player in players">
-            <ul><span> Player: {{ player.number }}</span></ul>
-            <ul><span> Civilization: {{ player.civ }}</span><span> Change Civ: <select ng-model="player.civ" ng-options="c as c.name for c in civs.data.civs track by c.id"></span></ul>
-            <br>
+                <ul><span> Player: {{ player.number }}</span></ul>
+                <ul><span> Civilization: {{ player.civ }} Change Civ: <select ng-model="player.civ" ng-options="c as c.name for c in civs.data.civs track by c.id">{{ player.civ.id }}</select></span></ul>
+                <ul><span> Gold: <input type="number" ng-model="player.gold"></span></ul>
+                <ul><span> Victories: <input type="number" ng-model="player.victories"></span></ul>
+                <ul><span> Losses: <input type="number" ng-model="player.losses"> </span></ul>
+                <ul><span> Wonders: <input type="number" ng-model="player.wonders"> </span></ul>
+                <ul><span> Cards: {{ player.cards }} Add Card: <select ng-model="player.cardselect" ng-options="card as card.name group by color.name for color in cards.data.colors.cards">{{ card.name }}</select>   </span></ul>
+                <br>
         </li>
 
+        <button ng-click="calcScore()">Calculate Score</button>
     </div>
 </html>

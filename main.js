@@ -29,6 +29,18 @@ app.controller("7wController", ['$scope', '$http', function($scope, $http) {
         .then(function(data) {
             $scope.civs = data;
         });
+    $http.get('cards.json')
+        .then(function(data) {
+            $scope.cards = [];
+            var option;
+            angular.forEach(data.colors, function(cards, name){
+                option = {};
+                angular.forEach(cards, function(card){
+                    card.group = name;
+                    $scope.cards.push(card);
+                });
+            });
+        });
 }]);
 
 // Create Players

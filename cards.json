@@ -1,0 +1,179 @@
+{
+    "colors" : [
+        {
+            "name" : "red",
+            "cards" : [
+                {
+                    "name" : "aaa",
+                    "players" : "3"
+                },
+                {
+                    "name" : "bbb",
+                    "players" : "3"
+                },
+                {
+                    "name" : "ccc",
+                    "players" : "3"
+                },
+                {
+                    "name" : "ddd",
+                    "players" : "4"
+                },
+                {
+                    "name" : "eee",
+                    "players" : "5"
+                }
+            ]
+        },
+        {
+            "name" : "blue",
+            "cards" : [
+                {
+                    "name" : "aaa",
+                    "players" : "3"
+                },
+                {
+                    "name" : "bbb",
+                    "players" : "3"
+                },
+                {
+                    "name" : "ccc",
+                    "players" : "3"
+                },
+                {
+                    "name" : "ddd",
+                    "players" : "4"
+                },
+                {
+                    "name" : "eee",
+                    "players" : "5"
+                }
+            ]
+        },
+        {
+            "name" : "green",
+            "cards" : [
+                {
+                    "name" : "aaa",
+                    "players" : "3"
+                },
+                {
+                    "name" : "bbb",
+                    "players" : "3"
+                },
+                {
+                    "name" : "ccc",
+                    "players" : "3"
+                },
+                {
+                    "name" : "ddd",
+                    "players" : "4"
+                },
+                {
+                    "name" : "eee",
+                    "players" : "5"
+                }
+            ]
+        },
+        {
+            "name" : "yellow",
+            "cards" : [
+                {
+                    "name" : "aaa",
+                    "players" : "3"
+                },
+                {
+                    "name" : "bbb",
+                    "players" : "3"
+                },
+                {
+                    "name" : "ccc",
+                    "players" : "3"
+                },
+                {
+                    "name" : "ddd",
+                    "players" : "4"
+                },
+                {
+                    "name" : "eee",
+                    "players" : "5"
+                }
+            ]
+        },
+        {
+            "name" : "purple",
+            "cards" : [
+                {
+                    "name" : "aaa",
+                    "players" : "3"
+                },
+                {
+                    "name" : "bbb",
+                    "players" : "3"
+                },
+                {
+                    "name" : "ccc",
+                    "players" : "3"
+                },
+                {
+                    "name" : "ddd",
+                    "players" : "4"
+                },
+                {
+                    "name" : "eee",
+                    "players" : "5"
+                }
+            ]
+        },
+        {
+            "name" : "silver",
+            "cards" : [
+                {
+                    "name" : "aaa",
+                    "players" : "3"
+                },
+                {
+                    "name" : "bbb",
+                    "players" : "3"
+                },
+                {
+                    "name" : "ccc",
+                    "players" : "3"
+                },
+                {
+                    "name" : "ddd",
+                    "players" : "4"
+                },
+                {
+                    "name" : "eee",
+                    "players" : "5"
+                }
+            ]
+        },
+        {
+            "name" : "brown",
+            "cards" : [
+                {
+                    "name" : "aaa",
+                    "players" : "3"
+                },
+                {
+                    "name" : "bbb",
+                    "players" : "3"
+                },
+                {
+                    "name" : "ccc",
+                    "players" : "3"
+                },
+                {
+                    "name" : "ddd",
+                    "players" : "4"
+                },
+                {
+                    "name" : "eee",
+                    "players" : "5"
+                }
+            ]
+        }
+    ]
+}
