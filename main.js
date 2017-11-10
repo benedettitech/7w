@@ -5,6 +5,10 @@ app.controller("7wController", ['$scope', '$http', function($scope, $http) {
     $scope.numberPlayers = 3;
     console.log($scope);
     
+    $scope.bool = [
+    {value: false, label: 'false'},
+    {value: true, label: 'true'}
+        ];
     $scope.getNumber = function(num) {
     return new Array(num);   
 }
@@ -25,21 +29,18 @@ app.controller("7wController", ['$scope', '$http', function($scope, $http) {
         }
     }
     
+    // Create Civilizations
+    
     $http.get('civs.json')
         .then(function(data) {
-            $scope.civs = data;
+            $scope.civs = data.data.civs;
         });
+    
+    // Create Cards
+    
     $http.get('cards.json')
         .then(function(data) {
-            $scope.cards = [];
-            var option;
-            angular.forEach(data.colors, function(cards, name){
-                option = {};
-                angular.forEach(cards, function(card){
-                    card.group = name;
-                    $scope.cards.push(card);
-                });
-            });
+            $scope.cards = data.data.colors;
         });
 }]);
 
@@ -47,10 +48,7 @@ app.controller("7wController", ['$scope', '$http', function($scope, $http) {
 
 // Create Positions
 
-// Create Cards
-
 // Create Gold
 
 // Create Tokens
 
-// Create Civilizations
