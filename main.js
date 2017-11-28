@@ -40,7 +40,7 @@ app.controller("7wController", ['$scope', '$http', function($scope, $http) {
     
     $http.get('cards.json')
         .then(function(data) {
-            $scope.cards = data.data.colors;
+            $scope.cards = data.data.cards;
         });
 }]);
 

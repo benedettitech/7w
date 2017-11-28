@@ -14,7 +14,7 @@
                 <ul><span> Victories: <input type="number" min="0" max="18" ng-model="player.victories"></span></ul>
                 <ul><span> Losses: <input type="number" min="0" max="-6" ng-model="player.losses"> </span></ul>
                 <ul><span> Wonders: <ul ng-repeat="wonder in player.civ.wonders">Points: {{wonder.victory}} Built?<select ng-model="wonder.built" ng-options="b as b.label for b in bool track by b.value">{{wonder.built}}</select></ul> </span></ul>
-                <ul><span> Cards: {{ player.cards }} Add Card: <select ng-model="player.cardselect" ng-options="color as color.name for color in cards">{{ color.name }}</select></span></ul>
+                <ul><span> Cards: {{ player.cards }} Add Card: <select ng-model="player.cardselect" ng-options="card.name group by card.color for card in cards">{{ card.name }}</select></span></ul>
                 <br>
         </li>
 

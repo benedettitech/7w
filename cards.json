@@ -1,179 +1,185 @@
 {
-    "colors" : [
+    "cards" : [
         {
-            "name" : "red",
-            "cards" : [
-                {
-                    "name" : "aaa",
-                    "players" : "3"
-                },
-                {
-                    "name" : "bbb",
-                    "players" : "3"
-                },
-                {
-                    "name" : "ccc",
-                    "players" : "3"
-                },
-                {
-                    "name" : "ddd",
-                    "players" : "4"
-                },
-                {
-                    "name" : "eee",
-                    "players" : "5"
-                }
-            ]
+            "name" : "aaa",
+            "players" : "3",
+            "color":"red"
         },
         {
-            "name" : "blue",
-            "cards" : [
-                {
-                    "name" : "aaa",
-                    "players" : "3"
-                },
-                {
-                    "name" : "bbb",
-                    "players" : "3"
-                },
-                {
-                    "name" : "ccc",
-                    "players" : "3"
-                },
-                {
-                    "name" : "ddd",
-                    "players" : "4"
-                },
-                {
-                    "name" : "eee",
-                    "players" : "5"
-                }
-            ]
+            "name" : "bbb",
+            "players" : "3",
+            "color":"red"
         },
         {
-            "name" : "green",
-            "cards" : [
-                {
-                    "name" : "aaa",
-                    "players" : "3"
-                },
-                {
-                    "name" : "bbb",
-                    "players" : "3"
-                },
-                {
-                    "name" : "ccc",
-                    "players" : "3"
-                },
-                {
-                    "name" : "ddd",
-                    "players" : "4"
-                },
-                {
-                    "name" : "eee",
-                    "players" : "5"
-                }
-            ]
+            "name" : "ccc",
+            "players" : "3",
+            "color":"red"
         },
         {
-            "name" : "yellow",
-            "cards" : [
-                {
-                    "name" : "aaa",
-                    "players" : "3"
-                },
-                {
-                    "name" : "bbb",
-                    "players" : "3"
-                },
-                {
-                    "name" : "ccc",
-                    "players" : "3"
-                },
-                {
-                    "name" : "ddd",
-                    "players" : "4"
-                },
-                {
-                    "name" : "eee",
-                    "players" : "5"
-                }
-            ]
+            "name" : "ddd",
+            "players" : "4",
+            "color":"red"
         },
         {
-            "name" : "purple",
-            "cards" : [
-                {
-                    "name" : "aaa",
-                    "players" : "3"
-                },
-                {
-                    "name" : "bbb",
-                    "players" : "3"
-                },
-                {
-                    "name" : "ccc",
-                    "players" : "3"
-                },
-                {
-                    "name" : "ddd",
-                    "players" : "4"
-                },
-                {
-                    "name" : "eee",
-                    "players" : "5"
-                }
-            ]
+            "name" : "eee",
+            "players" : "5",
+            "color":"red"
+        },
+
+        {
+            "name" : "aaa",
+            "players" : "3",
+            "color":"green"
         },
         {
-            "name" : "silver",
-            "cards" : [
-                {
-                    "name" : "aaa",
-                    "players" : "3"
-                },
-                {
-                    "name" : "bbb",
-                    "players" : "3"
-                },
-                {
-                    "name" : "ccc",
-                    "players" : "3"
-                },
-                {
-                    "name" : "ddd",
-                    "players" : "4"
-                },
-                {
-                    "name" : "eee",
-                    "players" : "5"
-                }
-            ]
+            "name" : "bbb",
+            "players" : "3",
+            "color":"green"
         },
         {
-            "name" : "brown",
-            "cards" : [
-                {
-                    "name" : "aaa",
-                    "players" : "3"
-                },
-                {
-                    "name" : "bbb",
-                    "players" : "3"
-                },
-                {
-                    "name" : "ccc",
-                    "players" : "3"
-                },
+            "name" : "ccc",
+            "players" : "3",
+            "color":"green"
+        },
                 {
                     "name" : "ddd",
-                    "players" : "4"
+                    "players" : "4",
+            "color":"green"
                 },
                 {
                     "name" : "eee",
-                    "players" : "5"
+                    "players" : "5",
+            "color":"green"
+                },
+
+                {
+                    "name" : "aaa",
+                    "players" : "3",
+            "color":"green"
+                },
+                {
+                    "name" : "bbb",
+                    "players" : "3",
+            "color":"green"
+                },
+                {
+                    "name" : "ccc",
+                    "players" : "3",
+            "color":"green"
+                },
+                {
+                    "name" : "ddd",
+                    "players" : "4",
+            "color":"green"
+                },
+                {
+                    "name" : "eee",
+                    "players" : "5",
+            "color":"green"
+        },
+
+                {
+                    "name" : "aaa",
+                    "players" : "3",
+            "color":"brown"
+                },
+                {
+                    "name" : "bbb",
+                    "players" : "3",
+            "color":"brown"
+                },
+                {
+                    "name" : "ccc",
+                    "players" : "3",
+            "color":"brown"
+                },
+                {
+                    "name" : "ddd",
+                    "players" : "4",
+            "color":"brown"
+                },
+                {
+                    "name" : "eee",
+                    "players" : "5",
+            "color":"brown"
+ },
+
+                {
+                    "name" : "aaa",
+                    "players" : "3",
+            "color":"brown"
+                },
+                {
+                    "name" : "bbb",
+                    "players" : "3",
+            "color":"brown"
+                },
+                {
+                    "name" : "ccc",
+                    "players" : "3",
+            "color":"brown"
+                },
+                {
+                    "name" : "ddd",
+                    "players" : "4",
+            "color":"brown"
+                },
+                {
+                    "name" : "eee",
+                    "players" : "5",
+            "color":"brown"
+ },
+
+                {
+                    "name" : "aaa",
+                    "players" : "3",
+            "color":"brown"
+                },
+                {
+                    "name" : "bbb",
+                    "players" : "3",
+            "color":"brown"
+                },
+                {
+                    "name" : "ccc",
+                    "players" : "3",
+            "color":"brown"
+                },
+                {
+                    "name" : "ddd",
+                    "players" : "4",
+            "color":"brown"
+                },
+                {
+                    "name" : "eee",
+                    "players" : "5",
+            "color":"brown"
+},
+
+                {
+                    "name" : "aaa",
+                    "players" : "3",
+            "color":"blue"
+                },
+                {
+                    "name" : "bbb",
+                    "players" : "3",
+            "color":"blue"
+                },
+                {
+                    "name" : "ccc",
+                    "players" : "3",
+            "color":"blue"
+                },
+                {
+                    "name" : "ddd",
+                    "players" : "4",
+            "color":"blue"
+                },
+                {
+                    "name" : "eee",
+                    "players" : "5",
+            "color":"blue"
                 }
-            ]
+              ]
         }
-    ]
-}
