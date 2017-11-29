@@ -10,11 +10,11 @@
         <li ng-repeat="player in players">
                 <ul><span> Player: {{ player.number }}</span></ul>
                 <ul><span> Civilization: {{ player.civ }} Change Civ: <select ng-model="player.civ" ng-options="c as c.name for c in civs track by c.id">{{ player.civ.id }}</select></span></ul>
-                <ul><span> Gold: <input type="number" ng-model="player.gold"></span></ul>
+                <ul><span> Gold: <input type="number" min="0" max="100" ng-model="player.gold"></span></ul>
                 <ul><span> Victories: <input type="number" min="0" max="18" ng-model="player.victories"></span></ul>
                 <ul><span> Losses: <input type="number" min="0" max="-6" ng-model="player.losses"> </span></ul>
                 <ul><span> Wonders: <ul ng-repeat="wonder in player.civ.wonders">Points: {{wonder.victory}} Built?<select ng-model="wonder.built" ng-options="b as b.label for b in bool track by b.value">{{wonder.built}}</select></ul> </span></ul>
-                <ul><span> Cards: {{ player.cards }} Add Card: <select ng-model="player.cardselect" ng-options="card.name group by card.color for card in cards">{{ card.name }}</select></span></ul>
+                <ul><span> Cards: {{ player.cards }} Add Card: <select ng-model="player.cardselect" ng-options="card.name group by card.color for card in cards">{{ card.name }}</select></span><button ng-click="addCard(player.number,player.cardselect)">Add Card</button></ul>
                 <br>
         </li>
 

@@ -29,26 +29,22 @@ app.controller("7wController", ['$scope', '$http', function($scope, $http) {
         }
     }
     
+    $scope.addCard = function(player,card){
+        $scope.players[player].cards.push(card);
+    }
+    
     // Create Civilizations
     
-    $http.get('civs.json')
+    $http.get('./resources/civs.json')
         .then(function(data) {
             $scope.civs = data.data.civs;
         });
     
     // Create Cards
     
-    $http.get('cards.json')
+    $http.get('./resources/cards.json')
         .then(function(data) {
             $scope.cards = data.data.cards;
         });
 }]);
-
-// Create Players
-
-// Create Positions
-
-// Create Gold
-
-// Create Tokens
 
